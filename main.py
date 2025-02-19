@@ -3,7 +3,7 @@ import platform
 import subprocess
 import json
 import requests
-
+ 
 def get_default_browser():
     system = platform.system()
 
