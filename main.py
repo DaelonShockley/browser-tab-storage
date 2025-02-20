@@ -14,7 +14,7 @@ def get_default_browser():
     elif system == "Darwin":  # macOS
         return get_default_browser_macos()
     else:
-        return None
+        return None    
 
 def get_default_browser_windows():
     try:
