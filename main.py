@@ -4,7 +4,7 @@ import subprocess
 import json
 import requests
  
-def get_default_browser():
+def get_default_browser():  
     system = platform.system()
 
     if system == "Windows":
